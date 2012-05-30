@@ -243,6 +243,7 @@ let colors_name = "solarized"
 if (has("gui_running") && g:solarized_degrade == 0)
     let s:vmode       = "gui"
     let s:base03      = "#002b36"
+    "let s:base03      = "#262729"   " Elegant brit bg
     let s:base02      = "#073642"
     let s:base01      = "#586e75"
     let s:base00      = "#657b83"
@@ -251,14 +252,19 @@ if (has("gui_running") && g:solarized_degrade == 0)
     let s:base2       = "#eee8d5"
     let s:base3       = "#fdf6e3"
     let s:yellow      = "#b58900"
+    "let s:yellow      = "#E6DB74"   " Elegant brit yellow
     let s:orange      = "#cb4b16"
+    "let s:orange      = "#FD971F"   " Elegant brit orange
     let s:red         = "#dc322f"
+    "let s:red         = "#F92672"   " Elegant brit pink
     let s:magenta     = "#d33682"
     let s:violet      = "#6c71c4"
+    "let s:violet      = "#AE81FF"   " Elegant Brit purple
     let s:blue        = "#268bd2"
     let s:cyan        = "#2aa198"
     "let s:green       = "#859900" "original
-    let s:green       = "#719e07" "experimental
+    "let s:green       = "#719e07" "experimental
+    let s:green       = "#A6E22E"   " Elegant brit green
 elseif (has("gui_running") && g:solarized_degrade == 1)
     " These colors are identical to the 256 color mode. They may be viewed
     " while in gui mode via "let g:solarized_degrade=1", though this is not
